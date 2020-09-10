@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+	background-image: url('images/sushi.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.navbar-toggler {
+	color: white;
+}
+
+.navbar-nav a {
+	color: #f5caad;
+	font-size: 50px;
+	font-family: 'Nanum Brush Script', cursive;
+	margin: 15px;
+}
+
+.jumbotron {
+	font-family: 'Nanum Brush Script', cursive;
+	color: #f5caad;
+	background-color: transparent;
+}
+
+.azabu {
+	font-size: 120px;
+}
+
+.azabuSushi {
+	font-size: 60px;
+	font-family: 'Nanum Brush Script', cursive;
+	color: #f5caad;
+}
+
+h2.azabuSushi {
+	padding-left: 240px;
+}
+
+.azabuSushiSub {
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Nanum Brush Script', cursive;
+	color: #f5caad;
+}
+
+.location {
+	color: #f5caad;
+}
+
+.edomae {
+	font-size: 50px;
+}
+
+a.ReservationButton {
+	font-family: 'Nanum Brush Script', cursive;
+	color: #f5caad;
+	text-decoration: underline;
+	font-size: 50px;
+}
+
+.reservationForm {
+	justify-content: right;
+}
+
+.transition-swipe {
+	transition: 500ms;
+	transform: translateY(0);
+}
+
+html.is-animating .transition-swipe {
+	transform: translateY(100px);
+}
+
+/* html.is-leaving .transition-swipe {
+	transform: translateY(0);
+} */
